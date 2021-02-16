@@ -4,8 +4,7 @@ import React from 'react'
 
 function Nav_tab(prop){
     return(
-      <div className = "logo " >
-       <img src = "" alt=""/>
+      <div className = "logo" >
        <p>Teleport</p>
       </div>
      

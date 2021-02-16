@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   
 }
 body {
@@ -15,7 +17,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul{
+h1, h2, h3, h4, h5, h6, p, ul, div{
   margin: 0;
   padding: 0;
 }
@@ -60,8 +62,8 @@ a{
 
 .flex{
   display: flex;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   align-items: stretch;
 }
 .flex-space{
@@ -69,23 +71,30 @@ a{
   justify-content: space-between;
 }
 
+.flex-align{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Navigation Bar */
 .nav__container{
   display: flex;
   padding: 10px 60px;
+  background-color:#191970 ;
+    /* background-image: linear-gradient(#191970, #ff4500); */
   /* padding-right: 80px; */
   /* border: 5px dotted red; */
-  border: 3px solid #00000005;
-  justify-content: space-between;
-  align-items: center;
+  /* border: 3px solid #00000005; */
+  /* justify-content: space-between;
+  align-items: center; */
   color: #f1f2f6;
-  
   }
 
   .nav__containerCenter{
     display: flex;
-    padding: 10px 60px;
-    widows: 100%;
+    /* padding: 10px 60px; */
+    width: 100%;
     /* border: 5px dotted red; */
     justify-content: center;
     /* color: #f1f2f6; */
@@ -93,7 +102,7 @@ a{
   
 
  .container__logo{
- /* border: 5px dotted red; */
+ border: 5px dotted red;
  display: flex;
  align-items: center;
  /* background-color: turquoise; */
@@ -105,10 +114,13 @@ a{
 /* background-color: turquoise; */
 list-style: none;
 display: flex;
-margin-left: auto;
+
 align-items: center;
+margin-bottom: 0;
+/* margin-left: 10%; */
   /* color: #f1f2f6; */
 /* border: 5px dotted red; */
+/* margin-left: 120px; */
 }
 
 .col + .col{
@@ -122,11 +134,7 @@ align-items: center;
  padding:5px 40px;
  /* padding: 3px 10px; */
 }
- .col a:hover{
-  /* background-color: teal; */
-/* color: #06aa46; */
-
-}
+ 
 .button{
  background-color: #06aa46;
 }
@@ -136,15 +144,25 @@ align-items: center;
   color: #f1f2f6;
 }
 .col a, .logo{
-  color: red;
+  color: white;
 }
 .logo{
   display: flex;
   align-items: center;
   font-size: 18px;
+  /* border: 5px dotted red; */
+  margin-right: 20%;
+}
+.logo p{
+  margin: 0;
 }
 .col a:hover, .col a:active{
-  color: red;
+  text-decoration: underline;
+  /* background-image: linear-gradient(#191970, #ff4500); */
+  color: #ff4500;
+ /* background-color: teal; */
+/* color: #06aa46; */
+ 
 }
 .namePicture{
   color: black;
@@ -153,27 +171,28 @@ align-items: center;
 
 /* the form and text */
 .header{
-  background-image: linear-gradient(#191970, #ff4500);
+  /* background-image: linear-gradient(#191970, #ff4500); */
 }
 .body__of_header{
-  padding-top: 160px;
-  padding:0 20%;
+  padding:120px 20%;
+  
   padding-right: 18%;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
   color: red;
  
 }
 
 .header__text{
-  width: 50%;
-  color: red;
+  width: 60%;
+  color: white;
   margin: 60px 0;
 text-align: left;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   
 }
-.header__text h5{
-  margin: 20px 0;
+.header__text h4{
+  font-size: 2.8em;
+ font-weight: bolder;
 }
 
 select{
@@ -235,36 +254,71 @@ select{
 }
 
 /* design for .section_1*/
+/* .section1_pics{
+  display: flex;
+  justify-content: space-between;
+} */
 
-.section1 .bigBox{
-/* width: 40%; */
-/* height: 80px; */
-border: 2px solid blue;
+.carouselCards{
+
 }
-
-.section1 .smallBox{
-  width: 50%;
-  /* height: 40px; */
-  border: 2px solid blue;
-  }
- .marginTop20{
-   margin-top: 20px;
- }
-  
-  .section1 .boxes{
-    display: flex;
-    border: 2px solid blue;
-    justify-content: space-between;
-    /* height: 150px; */
+.sectionHolder{
+  padding: 0 10%;
+}
+ .section1{
+   /* background-image: linear-gradient(#191970, #ff4500); */
+      /* border: 2px solid red; */
+      color: white;
+      padding:40px 0
+      /* text-align: none; */
     }
-    .section1{
-     padding: 0 25%;
-     
-      }
+    .check{
+      position: relative;
     
-.section_1 h1{
-  font-size: 1em;
-}
+    }
+    .check>div{
+      position: absolute;
+      /* left: 10px; */
+      bottom: 10px;
+    }
+    .check div>p, .check div>h1{
+      margin: 0px;
+      font-weight: bold;
+  color: white;
+    }
+   .section1 .check div>p:hover, .check div>h1:hover{
+      margin: 0px;
+      font-weight: bold;
+  color: white;
+    }
+    .check a:hover{
+      text-decoration: underline;
+      color: white;
+    }
+    .check a>h1, .check a>p{
+      margin: 0px;
+    
+  color: white;
+    }
+
+    .check div>p{
+      font-size: 1em;
+    }
+    .check div>h1{
+      font-size: 1.3em;
+    }
+    .check .check_date{
+    text-align: left;
+    font-weight: normal;
+    font-size: 12px;
+    }
+
+    .nexy{
+      font-weight: bold;
+    }
+/* .section1 h1{
+  font-size: 1.3em;
+} */
 
 .page-container{
   padding: 0px 18%;
@@ -276,15 +330,46 @@ border: 2px solid blue;
   /* border: 2px solid green; */
  
 }
-.section2
+/* Section2 */
+.section2{
+  /* border: 2px solid red; */
+  padding:50px 0
+
+}
+.showMore p{
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+.section2_pics{
+  display: flex;
+  justify-content: space-between;
+}
+.section3{
+  border: 2px solid red;
+}
+.section4{
+  margin: 50px 0;
+  padding: 30px 10%;
+  /* border: 2px solid red; */
+  background-color: #332824;
+  color: white;
+}
+.section4 div, .section4 p, .section4 h3{
+  color: white;
+}
+.section4 *, .section5 *, .section6, *{
+  margin:0;
+  padding:0
+}
+.section5{
+  border: 2px solid red;
+}
 
 .logo_Holder{
   /* border: 2px solid red; */
     height: 20px;
     width: 30px;
-    position: relative;
-   
-   
+    position: relative; 
 }
 .circle1{
   height: 20px;

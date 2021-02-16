@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Section3(prop){
+function Footer(prop){
 
     return(
         <div className = "section3">
               
                 <div className="Section3_content flex-space">
-                       <div><img src="./images/MaskGroup1.png" width="100" height="100"/></div>
+                       <div><img/></div>
                        <div>
                            <h2>
                            Looking for special deals and offers ?
@@ -21,4 +21,4 @@ function Section3(prop){
         </div>
     )
 }
-export default Section3
+export default Footer

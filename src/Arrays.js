@@ -353,4 +353,17 @@ const sectionAwaitingHouses = [ {
 },
 
 ]
-export  {section1Small1, section1Small2, section51Houses,section5Houses, sectionAwaitingHouses, section1Big}
+
+const carousels1 = [ {
+    image:"Url(./images/MaskGroup1.png)",
+   name:"Rome",
+   caption:"The city of God"
+},
+{
+    image:"Url(./images/studio.png)",
+   name:"Dubai",
+   caption:"The city of Gold"
+},
+
+]
+export  {section1Small1, section1Small2, section51Houses,section5Houses, sectionAwaitingHouses, section1Big, carousels1}

@@ -5,7 +5,7 @@ import React from "react"
 function Nav__LinksUnrestricted (prop){
     return(
         <div className = "">
-             <ul  className = "nav__links" style={{}}>
+             <ul  className = "nav__links">
                 <li class="col">
                 <a>cable</a>
                 </li>
