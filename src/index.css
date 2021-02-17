@@ -362,90 +362,80 @@ select{
   padding:0
 }
 .section5{
-  border: 2px solid red;
+  /* border: 2px solid red; */
+
 }
+.circleHolder{
+  position: relative;
+  /* border: 2px solid blue; */
+  width: 33%;
+  height: 100%;
+}
+
+.circles{
+  height: 80px;
+  width: 80px;
+  border: 1px solid white;
+  background-color:#C4C4C4 ;
+  /* opacity: 0.5; */
+  border-radius: 100%;
+
+  /* top:-2px; */
+}
+/* Section6 */
+.section6{
+  margin-top: 70px;
+}
+.circle11,.circle12,.circle13{
+  margin: 0 auto;
+  position: relative;
+ top: -40px;
+  margin-bottom: -30px;
+  
+}
+.box2, .box1, .box3{
+  position: relative;
+  width: 30%;
+  padding: 0px 3%;
+  border: 1px solid #C4C4C4;
+  /* background-color: #C4C4C4;
+   */
+
+}
+
+
+
+
+
+
+
+
 
 .logo_Holder{
   /* border: 2px solid red; */
     height: 20px;
-    width: 30px;
+    width: 25px;
     position: relative; 
 }
-.circle1{
-  height: 20px;
-  width: 20px;
-  /* border: 2px solid green; */
-  background-color:#06AA46 ;
-  opacity: 0.5;
-  border-radius: 100%;
-  position: absolute;
-  /* top:-2px; */
-}
 .circle2{
-  height: 20px;
-  width: 20px;
-  /* border: 2px solid blue; */
-  background-color: #007F3C;
-  opacity: 0.5;
-  position: absolute;
-  left: 10px;
-  /* top:-2px; */
-  border-radius: 100%;
+  position: absolute; 
+   left:60px
 }
-.circle10{
-  height: 20px;
-  width: 20px;
-  /* border: 2px solid green; */
-  background-color:white ;
-  opacity: 0.49;
-  border-radius: 100%;
-  position: absolute;
-  /* top:-2px; */
+.circle3{
+  position: absolute; 
+  left:120px
 }
-.circle20{
-  height: 20px;
-  width: 20px;
-  /* border: 2px solid blue; */
-  background-color: white;
-  opacity: 0.49;
-  position: absolute;
-  left: 10px;
-  /* top:-2px; */
-  border-radius: 100%;
+.circle4{
+  position: absolute; 
+  left:180px
 }
 
-.circle11{
-  height: 12px;
-  width: 12px;
-  border: 2px solid #CC2131;
-  background-color:#CC2131 ;
-  opacity: 0.5;
-  border-radius: 100%;
-  position: absolute;
-  left: 3.75px;
-   top:2.0px; 
-}
-.circle22{
-  height: 12px;
-  width: 12px;
-  border: 2px solid #E9B040;
-  background-color: #E9B040;
-  opacity: 0.5;
-  position: absolute;
- left: 10.75px;
-   top:2.0px;
-  border-radius: 100%;
-}
-.box22{
-  width: 3px;
-  height: 2px;
-  color:white;
-  font-size: 3px;
-  position: absolute;
-  top:6.0px;
-  left: 6px;
 
-}
+
+
+
+
+
 
 /* Page3 */
 /* .page3{
