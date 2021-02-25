@@ -1,222 +1,4 @@
-const houseProperties = [
-    {
-        image:"./images/ikeja.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"1"
 
-    },
-    {
-        image:"./images/lekki.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"2"
-
-    },
-    {
-        image:"./images/image65.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"3"
-
-    },
-    {
-        image:"./images/image74.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"4"
-
-    },
-    {
-        image:"./images/image83.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"5"
-
-    },
-    {
-        image:"./images/image75.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-    {
-        image:"./images/MaskGroup2.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-    {
-        image:"./images/image64.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-    {
-        image:"./images/ikeja.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"1"
-
-    },
-    {
-        image:"./images/lekki.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"2"
-
-    },
-    {
-        image:"./images/image65.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"3"
-
-    },
-    {
-        image:"./images/image74.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"4"
-
-    },
-    {
-        image:"./images/image83.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"5"
-
-    },
-    {
-        image:"./images/image75.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-    {
-        image:"./images/MaskGroup2.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-    {
-        image:"./images/image64.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-    {
-        image:"./images/ikeja.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"1"
-
-    },
-    {
-        image:"./images/lekki.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"2"
-
-    },
-    {
-        image:"./images/image65.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"3"
-
-    },
-    {
-        image:"./images/image74.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"4"
-
-    },
-    {
-        image:"./images/image83.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"5"
-
-    },
-    {
-        image:"./images/image75.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-    {
-        image:"./images/MaskGroup2.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-    {
-        image:"./images/image64.png",
-        name:"Impeccable Three Bedroom Mansionette",
-        place:"Victoria Island",
-        houseType:"3 bedroom - 3 bathroom",
-        Price:"₦ 20,000,000",
-        key:"6"
-
-    },
-
-]
 
 const section2Houses = [
     {
@@ -260,13 +42,19 @@ const section1Small1 = [
 const section1Small2 = [
     {
         image:"./images/lekki.png",
+        from: "Paris",
+        to:"Ghana",
+        date:"12th Feb - 21st Feb",
+        Price:"Price: (₦299,016)"
        
 
     },
     {
         image:"./images/VI.png",
-       
-
+        from: "Lagos",
+        to:"Paris",
+        date:"12th Feb - 21st Feb",
+        Price:"Price: (₦299,016)"
     },
 
 ]
@@ -312,36 +100,7 @@ const section51Houses = [ {
 },
 
 ]
-const section5Houses = [ {
-    image:"./images/ikeja.png",
-    name:"Impeccable Three Bedroom Mansionette",
-    place:"Victoria Island",
-    houseType:"3 bedroom - 3 bathroom",
-    Price:"₦ 20,000,000",
-    key:"1",
-    status:"Rented"
 
-},
-{
-    image:"./images/lekki.png",
-    name:"Impeccable Three Bedroom Mansionette",
-    place:"Victoria Island",
-    houseType:"3 bedroom - 3 bathroom",
-    Price:"₦ 20,000,000",
-    key:"2"
-
-},
-{
-    image:"./images/image65.png",
-    name:"Impeccable Three Bedroom Mansionette",
-    place:"Victoria Island",
-    houseType:"3 bedroom - 3 bathroom",
-    Price:"₦ 20,000,000",
-    key:"3"
-
-},
-
-]
 const sectionAwaitingHouses = [ {
     image:"./images/ikeja.png",
     name:"Impeccable Three Bedroom Mansionette",
@@ -360,10 +119,113 @@ const carousels1 = [ {
    caption:"The city of God"
 },
 {
-    image:"Url(./images/studio.png)",
+    image:"Url(./Images/TeleportPictures/dubai-uae.jpg)",
    name:"Dubai",
    caption:"The city of Gold"
 },
-
+{
+    image:"Url(./Images/dublinUk.jpg)",
+   name:"Dublin",
+   caption:"The city to suit all tastes"
+},
+{
+    image:"Url(./Images/TeleportPictures/accraGhana.jpg)",
+   name:"Accra",
+   caption:"The costal city"
+},
+{
+    image:"Url(./Images/TeleportPictures/capeTown.jpg)",
+   name:"Cape Town",
+   caption:"The city of Xenophobes"
+},
+{
+    image:"Url(./Images/TeleportPictures/cathedral-istanbul-turkey.jpg)",
+   name:"Istanbul",
+   caption:"Carpets, Cuisine and History"
+},
+{
+    image:"Url(./Images/TeleportPictures/AbujaNigeria.jpg)",
+   name:"Abuja",
+   caption:"Hahaha, This one weak me"
+},
+{
+    image:"Url(./Images/TeleportPictures/moscow-russia.jpg)",
+   name:"Russia",
+   caption:"The Kremlin, symbol of power"
+},
+// {
+//     image:"Url(./images/studio.png)",
+//    name:"Dubai",
+//    caption:"The city of Gold"
+// },
+// {
+//     image:"Url(./images/studio.png)",
+//    name:"Dubai",
+//    caption:"The city of Gold"
+// },
 ]
-export  {section1Small1, section1Small2, section51Houses,section5Houses, sectionAwaitingHouses, section1Big, carousels1}
+const headerPics = [ {
+    // image:"Url(./images/dublinUk.jpg)",
+    // image:"Url(./images/TeleportPictures/AbujaNigeria.jpg)",
+    // image:"Url(./images/studio.png)",
+    // image:"Url(./images/MaskGroup1.png)",
+    //  image:"Url(./images/TeleportPictures/AbujaNigeria.jpg)",
+    image:"Url(./Images/TeleportPictures/empire-state-building-new-york.jpg)", 
+    
+},
+]
+
+const flightDeals = [ {
+    // image:"Url(./images/dublinUk.jpg)",
+    // image:"Url(./images/TeleportPictures/AbujaNigeria.jpg)",
+    // image:"Url(./images/studio.png)",
+    // image:"Url(./images/MaskGroup1.png)",
+    //  image:"Url(./images/TeleportPictures/AbujaNigeria.jpg)",
+    // image:"Url(./Images/TeleportPictures/istanbul-turkey.jpg)", 
+    image:"Url(./Images/TeleportPictures/cairoEgyptaA.jpg)",
+    from: "Lagos",
+    to:"Cairo",
+    date:"12th Feb - 21st Feb",
+    price:"Price: (₦299,016)"
+},
+{
+   
+    //  image:"Url(./images/TeleportPictures/AbujaNigeria.jpg)",
+    image:"Url(./Images/TeleportPictures/london-uk.jpg)",
+     from: "Abuja",
+     to:"London",
+     date:"12th Feb - 21st Feb",
+     price:"Price: (₦299,016)"
+    
+},
+]
+
+const recommendedDestinations = [ 
+{
+    image:"Url(./Images/TeleportPictures/moscow-russia2.jpg)",
+    place: "Moscow",  
+},
+{
+    image:"Url(./Images/TeleportPictures/new-york-usa4.jpg)",
+    place: "New York", 
+},
+{
+    image:"Url(./Images/TeleportPictures/mombasa-ethopia.jpg)",
+    place: "Ethiopia",  
+},
+{
+    image:"Url(/Images/TeleportPictures/morocco2.jpg)",
+    place: "Morrocco",  
+},
+{
+    image:"Url(./Images/TeleportPictures/mt-fuji-japan.jpg)",
+    place: "Japan",  
+},
+{
+    image:"Url(./Images/TeleportPictures/kigali-rwanda.jpg)",
+    place: "Rwanda",  
+},
+]
+
+
+export  {recommendedDestinations, section1Small2, flightDeals,section1Big, carousels1, headerPics}

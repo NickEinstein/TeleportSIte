@@ -8,11 +8,13 @@ import Carousel from './Carousels';
 
 function Header(prop){
 
-    const Url = prop.Url
+    const Url = prop.Url.image
 
 const header_Background = {
 backgroundImage: Url,
-backgroundSize: "cover"
+backgroundRepeat: "no-repeat",
+backgroundSize: "100% 100%"
+
 
 }
     return(
@@ -20,7 +22,7 @@ backgroundSize: "cover"
       
         <section className = "body__of_header">
         <Header_Text
-        headerText = "Best homes to suite your style"
+        headerText = "Best Trips to suite your budget"
         p ="Explore the world. School abroad."
         />
         </section>

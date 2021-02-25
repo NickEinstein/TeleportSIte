@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {headerPics} from './Arrays';
 import Header from './Header';
 import Section1 from './Section1';
 import Section2 from './Section2';
@@ -13,10 +13,12 @@ import Nav_tab from './Nav_tab';
 
 
 function LandingPage(props){
+// const Section1 = headerPics
+
     return(
         <div class="">
             <Nav_tab/>
-          <Header  Url = "Url(./images/MaskGroup1.png)"/>
+          <Header  Url = {headerPics[0]}/>
           <div className="sectionHolder">
               <Section1  Url = "Url(./images/MaskGroup1.png)"/>
               <Section2 Url = "Url(./images/MaskGroup1.png)"/>

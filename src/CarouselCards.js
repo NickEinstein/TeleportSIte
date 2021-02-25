@@ -22,7 +22,7 @@ function CarouselCards(prop){
 
     const header_Background = {
       backgroundImage: Url,
-      backgroundSize: "cover",
+      backgroundSize: "100% 100%",
       width:"100%",
       height:"100%",
    

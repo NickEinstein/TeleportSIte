@@ -76,11 +76,18 @@ a{
   justify-content: space-between;
   align-items: center;
 }
+.flex-aligns{
+  display: flex;
+ 
+  align-items: center;
+}
+
 
 /* Navigation Bar */
 .nav__container{
   display: flex;
-  padding: 10px 60px;
+align-items: center;
+  padding: 0px 60px;
   background-color:#191970 ;
     /* background-image: linear-gradient(#191970, #ff4500); */
   /* padding-right: 80px; */
@@ -91,14 +98,7 @@ a{
   color: #f1f2f6;
   }
 
-  .nav__containerCenter{
-    display: flex;
-    /* padding: 10px 60px; */
-    width: 100%;
-    /* border: 5px dotted red; */
-    justify-content: center;
-    /* color: #f1f2f6; */
-    }
+  
   
 
  .container__logo{
@@ -333,8 +333,7 @@ select{
 /* Section2 */
 .section2{
   /* border: 2px solid red; */
-  padding:50px 0
-
+ 
 }
 .showMore p{
   margin-bottom: 0;
