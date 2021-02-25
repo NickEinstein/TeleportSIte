@@ -87,7 +87,7 @@ a{
 .nav__container{
   display: flex;
 align-items: center;
-  padding: 0px 60px;
+  padding: 1px 60px;
   background-color:#191970 ;
     /* background-image: linear-gradient(#191970, #ff4500); */
   /* padding-right: 80px; */
