@@ -114,7 +114,7 @@ const sectionAwaitingHouses = [ {
 ]
 
 const carousels1 = [ {
-    image:"Url(./images/MaskGroup1.png)",
+    image:"Url(./Images/TeleportPictures/kiev-ukraine.jpg)",
    name:"Rome",
    caption:"The city of God"
 },
@@ -170,7 +170,7 @@ const headerPics = [ {
     // image:"Url(./images/studio.png)",
     // image:"Url(./images/MaskGroup1.png)",
     //  image:"Url(./images/TeleportPictures/AbujaNigeria.jpg)",
-    image:"Url(./Images/TeleportPictures/empire-state-building-new-york.jpg)", 
+    image:"Url(../Images/TeleportPictures/dublin-uk.jpg)", 
     
 },
 ]
